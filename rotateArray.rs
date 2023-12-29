@@ -4,8 +4,8 @@ fn reverse(arr: &mut [i32], i:i32 , j:i32){
         temp = arr[i];
         arr[i] = arr[j];
         arr[j] = temp;
-        i++;
-        j--;
+        i+=1;
+        j-=1;
     }
 }
 
